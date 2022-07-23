@@ -1,0 +1,30 @@
+body{
+	width: 800px;
+	align-content: center;
+	margin: 0 auto;
+	padding: 50px;
+	font-family: Verdana, Tahoma;	
+}
+form{
+	width: 60%;
+	background-color: #e1cfff;
+	padding: 20px;
+}
+label{
+	padding-right: 30px;
+
+}
+label,input,select{
+	margin-bottom: 10px;
+}
+button{
+	background-color: orange;
+	border: 1px solid gray;
+}
+label{
+	font-weight: bold;
+}
+
+a{
+	color: red;
+}
