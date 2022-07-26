@@ -4,7 +4,6 @@ window.onload = function () {
     if (window.localStorage.accounts) {
         let textarea = document.getElementById("textarea");
         textarea.innerHTML = window.localStorage.accounts;
-		localStorage.clear();
     }
 }
 
