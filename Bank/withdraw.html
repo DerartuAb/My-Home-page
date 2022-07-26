@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="create-account.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading1">
+            <h1>Welcome to your bank</h1>
+        </div>
+        <div class="manage-accounts">
+            <form id="createAccount" action="index.html">
+                <label for="name"> Account name: </label>
+                <select name="name" id="drop-down">
+                    <option value="business">business</option>
+                    <option value="personal">personal</option>
+                    <option value="checking">checking</option>
+                    <option value="saving">saving</option>
+
+                </select>
+                <br>
+                <label for="amount">Withdraw:</label>
+                <input id="amount" type="text" name="amount" value="">
+                <br>
+                <input id="withdraw" type="submit" value="Withdraw">
+            </form>
+        </div>
+    </div>
+    <script src="withdraw_deposite.js"></script>
+    <!-- <script src="index.js"></script>
+    <script src="index1.js"></script> -->
+
+
+</body>
+
+</html>
