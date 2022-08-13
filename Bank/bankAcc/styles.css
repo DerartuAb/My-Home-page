@@ -1,0 +1,24 @@
+body{
+	width: 75%;
+	margin: 0 auto;
+	padding: 200px;
+	align-content: center;
+	font-size: 18px;
+	font-family: Verdana, Tahoma;
+	background-color: #7bb88b;
+}
+
+button, input, label, textarea,select{
+	font-size: 20px;
+	margin-bottom:  10px;
+
+}
+a{
+	text-decoration: none;
+	color:  black;
+
+}
+
+button{
+	background-color: #b8ae7b;
+}

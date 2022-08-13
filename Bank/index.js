@@ -12,7 +12,7 @@ class Account {
     static accountInfoList = [];
 
     constructor(name, amount) {
-		
+
         this.name = name;
         this.balance = amount;
         Account.accountInfoList.push(this);

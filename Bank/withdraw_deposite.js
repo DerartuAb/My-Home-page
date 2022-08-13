@@ -18,7 +18,7 @@ function withdraw() {
 
 function deposite() {
     let account = document.getElementById("drop-down").value;
-    let amount = document.getElementById("amount");
+    let amount = document.getElementById("amount").value;
 
     for (let i = 0; i < Account.accountInfoList.length; i++) {
         if (account == accountInfoList[i].name) {
